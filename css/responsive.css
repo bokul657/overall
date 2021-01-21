@@ -1,0 +1,33 @@
+@media only screen and (max-width:991px) {
+	.menubar {
+		display: none;
+	}
+
+	.mobile-btn {
+		display: block;
+	}
+	.blog-main{
+	padding-right: 0;
+	border-right: none;
+}
+}
+
+@media only screen and (max-width:767px) {
+	.ht-right {
+		text-align: center;
+	}
+
+	.ht-left {
+		text-align: center;
+	}
+
+	.ht-left span {
+		display: block;
+	}
+}
+
+@media only screen and (max-width:519px) {
+	.ht-left span {
+		display: block;
+	}
+}
